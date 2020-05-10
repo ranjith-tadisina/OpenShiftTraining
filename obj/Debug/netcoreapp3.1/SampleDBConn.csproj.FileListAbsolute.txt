@@ -1,0 +1,4 @@
+C:\Users\RANJTIH\Desktop\IBM WORK\CodeBackUp\03032020_dotNetCore2.2\SampleDBConn_1\SampleDBConn\obj\Debug\netcoreapp3.1\SampleDBConn.csprojAssemblyReference.cache
+C:\Users\RANJTIH\Desktop\IBM WORK\CodeBackUp\03032020_dotNetCore2.2\SampleDBConn_1\SampleDBConn\obj\Debug\netcoreapp3.1\SampleDBConn.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RANJTIH\Desktop\IBM WORK\CodeBackUp\03032020_dotNetCore2.2\SampleDBConn_1\SampleDBConn\obj\Debug\netcoreapp3.1\SampleDBConn.AssemblyInfoInputs.cache
+C:\Users\RANJTIH\Desktop\IBM WORK\CodeBackUp\03032020_dotNetCore2.2\SampleDBConn_1\SampleDBConn\obj\Debug\netcoreapp3.1\SampleDBConn.AssemblyInfo.cs
