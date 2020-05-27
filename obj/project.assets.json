@@ -14200,11 +14200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RANJTIH\\Desktop\\IBMWORK\\CodeBackUp\\03032020_dotNetCore2.2\\SampleDBConn_1\\SampleDBConn\\SampleDBConn.csproj",
+      "projectUniqueName": "C:\\Users\\RANJTIH\\Desktop\\IBMWORK\\CodeBackUp\\05142020_Sample App for Containerization\\SampleDBConn\\SampleDBConn.csproj",
       "projectName": "SampleDBConn",
-      "projectPath": "C:\\Users\\RANJTIH\\Desktop\\IBMWORK\\CodeBackUp\\03032020_dotNetCore2.2\\SampleDBConn_1\\SampleDBConn\\SampleDBConn.csproj",
+      "projectPath": "C:\\Users\\RANJTIH\\Desktop\\IBMWORK\\CodeBackUp\\05142020_Sample App for Containerization\\SampleDBConn\\SampleDBConn.csproj",
       "packagesPath": "C:\\Users\\RANJTIH\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RANJTIH\\Desktop\\IBMWORK\\CodeBackUp\\03032020_dotNetCore2.2\\SampleDBConn_1\\SampleDBConn\\obj\\",
+      "outputPath": "C:\\Users\\RANJTIH\\Desktop\\IBMWORK\\CodeBackUp\\05142020_Sample App for Containerization\\SampleDBConn\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

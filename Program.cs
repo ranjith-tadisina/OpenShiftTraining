@@ -15,26 +15,10 @@ namespace SampleDBConn
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
-
-
-            IConfigurationBuilder builder = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-
-            IConfigurationRoot configuration = builder.Build();
-
-            IConfigurationSection configurationSection = configuration.GetSection("apikey");
-
-
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
     }
-
-  
-      
-    
-    
 }

@@ -5,11 +5,7 @@ using System.Threading.Tasks;
 
 namespace SampleDBConn.Model
 {
-    public class MySettingsModel
-    {
-        public string apikey { get; set; }
-     
-    }
+  
 
     public class Coord
     {

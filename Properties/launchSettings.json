@@ -1,6 +1,4 @@
 {
-  "apikey": "4e10532cbf8d78b102818e29b2cb93a5",
-
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -16,7 +14,7 @@
       "environmentVariables": {
         "UNITS": "metrics",
         "ASPNETCORE_ENVIRONMENT": "Development"
-
+       
       }
     },
     "SampleDBConn": {
@@ -25,8 +23,8 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5001;http://localhost:5000"
-
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "apikey": "4e10532cbf8d78b102818e29b2cb93a5"
     }
   }
 }

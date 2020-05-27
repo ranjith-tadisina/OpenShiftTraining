@@ -19,19 +19,17 @@ namespace WeatherStation.Controllers
             return View();
         }
 
-        private readonly IOptions<MySettingsModel> appSettings;
         private readonly IOptions<AppOptions> _options;
 
         public string UNITS { get; set; }
          
+        public string apikey { get { return this.apikey; } }
      
 
-        public WeatherController(IOptions<MySettingsModel> app)
+        public WeatherController(IOptions<AppOptions> options)
         {
-            appSettings = app;
+            _options = options;
         }
-
-     
 
         [HttpGet("[action]")]
         public async Task<IActionResult> City(string city)
@@ -40,11 +38,8 @@ namespace WeatherStation.Controllers
             {
                 try
                 {
-                    var apikeyval = appSettings.Value.apikey;
-
-                    var list = new List<string>();
                     client.BaseAddress = new Uri("http://api.openweathermap.org");
-                    var response = await client.GetAsync($"/data/2.5/weather?q={city}&appid={apikeyval}&units=metric");
+                    var response = await client.GetAsync($"/data/2.5/weather?q={city}&appid=4e10532cbf8d78b102818e29b2cb93a5&units=metric");
                     response.EnsureSuccessStatusCode();
 
                     var stringResult = await response.Content.ReadAsStringAsync();
