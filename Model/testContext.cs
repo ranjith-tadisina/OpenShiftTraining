@@ -26,7 +26,7 @@ namespace SampleDBConn.Model
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer(@"Server=mssql;User Id=sa;Password=aA1p2GLQRbr;Database=test;Trusted_Connection=False;");
+                optionsBuilder.UseSqlServer(@"Server=mssql,1433;User Id=sa;Password=aA1p2GLQRbr;Database=test;Trusted_Connection=False;");
 
             }
         }
